@@ -1,0 +1,16 @@
+cd Desktop
+mkdir test
+touch index.html
+touch style.css
+touch aboutMe.txt
+git init
+git add .
+git commit -m “first comment”
+git add aboutMe.txt
+git commit -m “updated aboutMe”
+git add aboutMe.txt
+git commit -m “added favorite movie to aboutMe”
+git log
+git revert <hash code>
+git add .
+git commit -m “final commit after revising a file”

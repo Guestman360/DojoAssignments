@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY Registration Form</title>
+</head>
+	<body>
+
+	<h1>My Registration Form</h1>
+
+		<form>
+			<table>
+			<p><label for="first_name">First Name:	</label>
+			<input type="text" id="first_name" name="first_name"></p>
+			<!--id is for front end (CSS & Javascript) while name is for backend -->
+			<p><label for="last_name">Last Name:	</label>
+			<input type="text" id="last_name" name="last_name"></p>
+
+			<p><label for="email">Email:	</label>
+			<input type="text" id="email" name="email"></p>
+
+			<p><label for="password">Password:	</label>
+			<input type="password" id="password" name="password"></p>
+
+
+			<p><label for="PW_Confirm">Password Confirm:	</label>
+			<input type="password" id="W_Confirm" name="W_Confirm"></p>
+
+
+			<p><label for="birthday">Birthday:	</label>
+			<input type="date" id="birthday" name="birthday" placeholder="mm/dd/yy"></p>
+
+
+			<p><label for="male">Male</label>
+			<input type="radio" id="male" name="gender" value="male">
+
+			<label for="female">Female</label>
+			<input type="radio" id="female" name="gender" value="female">
+
+			<label for="other">Other</label>
+			<input type="radio" id="other" name="gender" value="other"></p>
+
+			<h3>A short description about yourself</h3>
+			<p><textarea name="description" rows="4" cols="50" placeholder="Input some text here"></textarea></p>
+
+
+			<p><label for="favLang">Favorite Language:	</label>
+			<select name="Select Language">
+    			<option value="Javascript">Javascript</option>
+    			<option value="Swift">Swift</option>
+    			<option value="Python">Python</option>
+    			<option value="C++">C++</option>
+			</select></p>
+
+			<p><input type="submit" value="Submit"></p>
+
+			</table>
+
+		</form>
+	</body>
+</html>
